@@ -1,7 +1,7 @@
 # VoClo_version3
 VoClo_version3
 
-Table of Contents
+# Table of Contents
 
 Introduction
 
