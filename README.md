@@ -1,54 +1,39 @@
 # VoClo_version3
-VoClo_version3
 
 # Table of Contents
 
-Introduction
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Features
-
-Technologies Used
-
-Project Structure
-
-Installation
-
-Usage
-
-Contributing
-
-License
-
-Contact
-
-Introduction
+# Introduction
 
 VoClo_version3 is a web-based voice cloning application that allows users to generate synthetic speech resembling a target voice. The project integrates advanced AI models and a user-friendly interface to enable seamless voice cloning. The system includes authentication, a dashboard, and voice processing functionalities.
 
-Features
+# Features
 
-User Authentication: Secure login, registration, and OTP-based verification.
+- **User Authentication**: Secure login, registration, and OTP-based verification.
+- **Dashboard**: Provides access to voice cloning functionalities.
+- **Voice Cloning**: Uses AI to generate high-quality synthetic speech.
+- **Web-Based Interface**: HTML/CSS templates for user interaction.
+- **Modular Structure**: Separation of authentication, dashboard, and voice processing.
 
-Dashboard: Provides access to voice cloning functionalities.
+# Technologies Used
 
-Voice Cloning: Uses AI to generate high-quality synthetic speech.
+- **Backend**: Python (Flask)
+- **Frontend**: HTML, CSS
+- **AI/ML**: Deep learning models for voice cloning
+- **Database**: SQLite or another lightweight database
 
-Web-Based Interface: HTML/CSS templates for user interaction.
+# Project Structure
 
-Modular Structure: Separation of authentication, dashboard, and voice processing.
-
-Technologies Used
-
-Backend: Python (Flask)
-
-Frontend: HTML, CSS
-
-AI/ML: Deep learning models for voice cloning
-
-Database: SQLite or another lightweight database
-
-Project Structure
-
+```
 VoClo_version3/
 │── main/
 │   │── app.py            # Main application entry point
@@ -67,70 +52,65 @@ VoClo_version3/
 │   │── requirements.txt  # Dependencies for voice cloning module
 │── requirements@main.txt # Dependencies for main application
 │── README.md             # Project documentation
+```
 
-Installation
+# Installation
 
-Prerequisites
+## Prerequisites
 
 Ensure you have Python 3 installed on your system.
 
-Steps
+## Steps
 
-Clone the Repository:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Snehalatha124/VoClo_version3.git
+   ```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd VoClo_version3
+   ```
+3. **Create and Activate a Virtual Environment**:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # On Windows, use 'env\Scripts\activate'
+   ```
+4. **Install Dependencies**:
+   ```bash
+   pip install -r requirements@main.txt
+   pip install -r voice_clone_management/requirements.txt
+   ```
+5. **Run the Application**:
+   ```bash
+   python main/app.py
+   ```
+   Access the application at `http://127.0.0.1:5000/`.
 
-git clone https://github.com/Snehalatha124/VoClo_version3.git
+# Usage
 
-Navigate to the Project Directory:
+1. **Register/Login**: Create an account or log in.
+2. **Dashboard**: Access voice cloning features.
+3. **Upload Voice Sample**: Provide a target voice.
+4. **Generate Synthetic Voice**: Enter text and generate speech.
+5. **Download Output**: Save generated audio.
 
-cd VoClo_version3
-
-Create and Activate a Virtual Environment:
-
-python3 -m venv env
-source env/bin/activate  # On Windows, use 'env\Scripts\activate'
-
-Install Dependencies:
-
-pip install -r requirements@main.txt
-pip install -r voice_clone_management/requirements.txt
-
-Run the Application:
-
-python main/app.py
-
-Access the application at http://127.0.0.1:5000/.
-
-Usage
-
-Register/Login: Create an account or log in.
-
-Dashboard: Access voice cloning features.
-
-Upload Voice Sample: Provide a target voice.
-
-Generate Synthetic Voice: Enter text and generate speech.
-
-Download Output: Save generated audio.
-
-Contributing
+# Contributing
 
 We welcome contributions! To contribute:
 
-Fork the Repository
+1. **Fork the Repository**
+2. **Create a New Branch**
+3. **Make Changes & Commit**
+4. **Submit a Pull Request**
 
-Create a New Branch
-
-Make Changes & Commit
-
-Submit a Pull Request
-
-License
+# License
 
 This project is licensed under the MIT License.
 
-Contact
+# Contact
 
-Developer: Snehalatha124
+- **Developer**: Snehalatha124
+- **GitHub**: [Snehalatha124](https://github.com/Snehalatha124)
 
-GitHub: Snehalatha124
+
 
